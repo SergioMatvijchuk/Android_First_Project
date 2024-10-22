@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android_First_Project</string>
+    <string name="app_title">Знакомство с Андроид</string>
+    <string name="main_btn_calc">Калькулятор</string>
+
+</resources>
