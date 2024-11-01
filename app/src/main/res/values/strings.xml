@@ -3,4 +3,47 @@
     <string name="app_title">Знакомство с Андроид</string>
     <string name="main_btn_calc">Калькулятор</string>
 
+
+    <!-- region Calc -->
+    <string name="calc_tv_title">Калькулятор</string>
+
+    <string name="calc_tv_titleNo">Не Калькулятор</string>
+
+
+    <string name="calc_btn_operation_ac">AC</string>
+    <string name="calc_btn_operation_backspace">\u232B</string>
+    <string name="calc_btn_operation_square">^</string>
+    <string name="calc_btn_operation_sqrt">√</string>
+
+    <string name="calc_btn_operation_c">C</string>
+    <string name="calc_btn_operation_pm">+-</string>
+    <string name="calc_btn_operation_percent">%</string>
+    <string name="calc_btn_operation_devide">/</string>
+
+    <string name="calc_btn_operation_multiply">x</string>
+    <string name="calc_btn_operation_minus">-</string>
+    <string name="calc_btn_operation_plus">+</string>
+    <string name="calc_btn_operation_equal">=</string>
+    <string name="calc_btn_operation_coma">.</string>
+    <string name="calc_btn_operation_log">log</string>
+
+
+    <string name="calc_btn_digit_0">0</string>
+    <string name="calc_btn_digit_1">1</string>
+    <string name="calc_btn_digit_2">2</string>
+    <string name="calc_btn_digit_3">3</string>
+    <string name="calc_btn_digit_4">4</string>
+    <string name="calc_btn_digit_5">5</string>
+    <string name="calc_btn_digit_6">6</string>
+    <string name="calc_btn_digit_7">7</string>
+    <string name="calc_btn_digit_8">8</string>
+    <string name="calc_btn_digit_9">9</string>
+
+
+    <string name="calc_msg_too_long">Лимит цифр превышен</string>
+
+    <!-- endregion Calc -->
+
+
+    <string name="main_button_game">2024</string>
 </resources>
