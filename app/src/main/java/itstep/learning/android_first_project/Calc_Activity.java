@@ -86,7 +86,7 @@ private static final int maxDigits = 9;
             @Override
             public void onClick(View view){
                 try {
-                    calculator.onActionPressed(((Button)view).getText().toString());
+                    calculator.onActionPressed(((Button)view).getTag().toString());
                 } catch (ParseException e) {
                     Toast.makeText(Calc_Activity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                 }

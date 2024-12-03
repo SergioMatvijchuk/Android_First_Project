@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fromXScale="1.0"
+    android:fromYScale="1.0"
+    android:toXScale="1.5"
+    android:toYScale="1.5"
+    android:duration="700"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:repeatMode="reverse"
+    android:repeatCount="3"
+ />
+
+
+<!--
+    android:pivotX="50%"  смещение увеличения в разные стороны
+    android:pivotY="50%"
+    android:repeatMode="reverse"
+    android:repeatCount="1"   возвращение назад , -->
+
+
+
+    <!--
+    Анимация масштаба ( размера ) показывает пони=ятие *недви жимой точки* (pivot) -
+    точки фигуры , которая не изменяет своего положения во время анимации
+    (0.0)       (0.0)
+    +**         +****
+    *** ->      *****   ->
+    ***         *****
+                *****
+                *****
+
+
+    (0.0)       (0.5 0.5)
+    +**         +****
+    *** ->      *****   ->
+    ***         *****
+                *****
+                *****
+
+
+                Режим повтора (android: repeatCount) определяет общее время анимации
+                базовое время + количество повторов
+(android: repeatCount)  - 1 - бесконечное количество повторов
+                repeatCount анимаций ( циклов)
+                стиль перехода от цика к циклу определяется android: repeatMode
+                "reverse" - плавное проигрывание назад
+                "restart" - резкий возврат назад
+
+
+    -->

@@ -49,4 +49,11 @@
     <color name="game_text_2048">#F8F7F1</color>
     <color name="game_text_other">#F8F6EF</color>
 
+
+    <color name="chat_msg_other">#EFBD0A</color>
+    <color name="chat_msg_author">#F0A993</color>
+
+
+
+
 </resources>

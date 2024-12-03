@@ -56,6 +56,28 @@
             android:textSize="20sp"
             app:backgroundTint="@null"
             />
+        <Button
+            android:id="@+id/main_button_anim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_foreground"
+            android:layout_margin="20dp"
+            android:text="@string/main_button_anim"
+            android:textSize="20sp"
+            app:backgroundTint="@null"
+            />
+
+        <Button
+            android:id="@+id/chat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/app_foreground"
+            android:layout_margin="20dp"
+            android:text="@string/chat"
+            android:textSize="20sp"
+            app:backgroundTint="@null"
+            />
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
